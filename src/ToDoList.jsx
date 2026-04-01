@@ -11,6 +11,7 @@ function ToDoList() {
   function addTask() {
     const trimmedTask = newTask.trim();
 
+    
     if (trimmedTask === "") return;
 
     if (tasks.includes(trimmedTask)) {
