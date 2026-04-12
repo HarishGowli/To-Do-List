@@ -7,7 +7,7 @@ function ToDoList() {
   function handleInputChange(event) {
     setNewTask(event.target.value);
   }
-
+ 
   function addTask() {
     const trimmedTask = newTask.trim();
 
