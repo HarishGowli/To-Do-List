@@ -11,7 +11,6 @@ function ToDoList() {
   function addTask() {
     const trimmedTask = newTask.trim();
 
-    
     if (trimmedTask === "") return;
 
     if (tasks.includes(trimmedTask)) {
@@ -82,7 +81,7 @@ function ToDoList() {
             <button className="move-button" onClick={() => moveTaskDown(index)}>
               👇
             </button>
-          </li>
+          </li> 
         ))}
       </ol>
     </div>
